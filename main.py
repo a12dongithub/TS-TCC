@@ -9,7 +9,7 @@ from dataloader.dataloader import data_generator
 from trainer.trainer import Trainer, model_evaluate
 from models.TC import TC
 from utils import _calc_metrics, copy_Files
-from models.model import base_Model,  Bladeformer
+from models.model import base_Model
 # Args selections
 start_time = datetime.now()
 
